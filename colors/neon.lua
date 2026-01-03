@@ -111,11 +111,6 @@ SetHl("@keyword.import.typescript", mods["none"], colors["purple_l"], colors["no
 SetHl("@keyword.import.jsx", mods["none"], colors["purple_l"], colors["none"])
 SetHl("@keyword.import.tsx", mods["none"], colors["purple_l"], colors["none"])
 
-SetHl("@variable.builtin.javascript", mods["none"], colors["pink"], colors["none"])
-SetHl("@variable.builtin.typescript", mods["none"], colors["pink"], colors["none"])
-SetHl("@variable.builtin.jsx", mods["none"], colors["pink"], colors["none"])
-SetHl("@variable.builtin.tsx", mods["none"], colors["pink"], colors["none"])
-
 SetHl("@constant.builtin.javascript", mods["none"], colors["white_dd"], colors["none"])
 SetHl("@constant.builtin.typescript", mods["none"], colors["white_dd"], colors["none"])
 SetHl("@constant.builtin.jsx", mods["none"], colors["white_dd"], colors["none"])
