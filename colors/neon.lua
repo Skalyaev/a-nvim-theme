@@ -1,7 +1,6 @@
 local function SetHl(group, mod, fg, bg)
-
-    local fmt="highlight %s gui=%s cterm=%s guifg=%s ctermfg=%s guibg=%s ctermbg=%s"
-    vim.cmd(fmt:format(group, mod[1], mod[2], fg[1], fg[2], bg[1], bg[2]))
+	local fmt = "highlight %s gui=%s cterm=%s guifg=%s ctermfg=%s guibg=%s ctermbg=%s"
+	vim.cmd(fmt:format(group, mod[1], mod[2], fg[1], fg[2], bg[1], bg[2]))
 end
 local colors = require("colors")
 local mods = require("modifiers")
@@ -99,6 +98,28 @@ SetHl("@constant.builtin", mods["none"], colors["purple_l"], colors["none"])
 SetHl("@variable.parameter.bash", mods["none"], colors["turquoise_d"], colors["none"])
 SetHl("@punctuation.special.bash", mods["none"], colors["royal_d"], colors["none"])
 SetHl("@character.special.bash", mods["none"], colors["purple_l"], colors["none"])
+
+-- CODE - TREESITTER JS(X) / TS(X)
+----------------------------------
+SetHl("@attribute.javascript", mods["none"], colors["turquoise_d"], colors["none"])
+SetHl("@attribute.typescript", mods["none"], colors["turquoise_d"], colors["none"])
+SetHl("@attribute.jsx", mods["none"], colors["turquoise_d"], colors["none"])
+SetHl("@attribute.tsx", mods["none"], colors["turquoise_d"], colors["none"])
+
+SetHl("@keyword.import.javascript", mods["none"], colors["purple_l"], colors["none"])
+SetHl("@keyword.import.typescript", mods["none"], colors["purple_l"], colors["none"])
+SetHl("@keyword.import.jsx", mods["none"], colors["purple_l"], colors["none"])
+SetHl("@keyword.import.tsx", mods["none"], colors["purple_l"], colors["none"])
+
+SetHl("@variable.builtin.javascript", mods["none"], colors["yellow_l"], colors["none"])
+SetHl("@variable.builtin.typescript", mods["none"], colors["yellow_l"], colors["none"])
+SetHl("@variable.builtin.jsx", mods["none"], colors["yellow_l"], colors["none"])
+SetHl("@variable.builtin.tsx", mods["none"], colors["yellow_l"], colors["none"])
+
+SetHl("@constant.builtin.javascript", mods["none"], colors["white_dd"], colors["none"])
+SetHl("@constant.builtin.typescript", mods["none"], colors["white_dd"], colors["none"])
+SetHl("@constant.builtin.jsx", mods["none"], colors["white_dd"], colors["none"])
+SetHl("@constant.builtin.tsx", mods["none"], colors["white_dd"], colors["none"])
 
 -- ADDON - LAZY
 ---------------
