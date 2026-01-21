@@ -20,7 +20,7 @@ SetHl("FloatBorder", mods["none"], colors["gray"], colors["none"])
 
 -- VIM - GENERAL TEXT
 ---------------------
-SetHl("Visual", mods["bold"], colors["none"], colors["black_l"])
+SetHl("Visual", mods["bold"], colors["none"], colors["black_ll"])
 SetHl("Normal", mods["none"], colors["white"], colors["none"])
 SetHl("NormalFloat", mods["none"], colors["white"], colors["none"])
 SetHl("NonText", mods["none"], colors["gray"], colors["none"])
@@ -30,9 +30,9 @@ SetHl("Folded", mods["none"], colors["none"], colors["none"])
 SetHl("MatchParen", mods["bold"], colors["yellow_l"], colors["black_l"])
 SetHl("Search", mods["bold"], colors["yellow_l"], colors["black_l"])
 SetHl("CurSearch", mods["bold"], colors["chartreuse_l"], colors["black_l"])
-SetHl("CursorLine", mods["bold"], colors["none"], colors["black_l"])
-SetHl("CursorColumn", mods["bold"], colors["none"], colors["black_l"])
-SetHl("ColorColumn", mods["bold"], colors["none"], colors["black_l"])
+SetHl("CursorLine", mods["bold"], colors["none"], colors["black_ll"])
+SetHl("CursorColumn", mods["bold"], colors["none"], colors["black_ll"])
+SetHl("ColorColumn", mods["bold"], colors["none"], colors["black_ll"])
 
 -- VIM - INFO TEXT
 ------------------
